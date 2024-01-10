@@ -30,6 +30,7 @@
   console.log("hello from nameless");
 };
 a();*/
+
 // // default function
 /*const mul = (a = 2, b) => {
   return a * b;
@@ -46,12 +47,19 @@ pagination(undefined, undefined);*/
 // // paramaterized function
 
 // // inline function
-const footer = function () {
+/*const footer = function () {
   console.log("inline function");
 };
 footer();
+*/
 
 // // closure function
+const secret = () => {
+  const password = "random";
+  return password;
+};
+console.log(secret());
+
 // // implicit function
 // // explicit function
 // writ a multiplication table of 3 using function and loop
