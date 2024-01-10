@@ -23,7 +23,13 @@
 // }
 // const value = tocelius(fahrenheit);
 // console.log(alert(value));
+
+// Types of function
 // // // Nameless Function
+const a = function () {
+  console.log("hello from nameless");
+};
+a();
 // // default function
 // // paramaterized function
 // // inline function
@@ -31,11 +37,11 @@
 // // implicit function
 // // explicit function
 // writ a multiplication table of 3 using function and loop
-const a = 3;
-const mul = (a) => {
-  for (let i = 0; i <= 10; i++) {
-    return a * i;
-  }
-};
-const res = mul(a);
-console.log(a + "*" + i + "=" + res);
+// const a = 3;
+// const mul = (a) => {
+//   for (let i = 0; i <= 10; i++) {
+//     return a * i;
+//   }
+// };
+// const res = mul(a);
+// console.log(a + "*" + i + "=" + res);
