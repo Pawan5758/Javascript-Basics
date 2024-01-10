@@ -54,20 +54,14 @@ footer();
 */
 
 // // closure function
-const secret = () => {
+/*const secret = () => {
   const password = "random";
   return password;
 };
-console.log(secret());
+console.log(secret());*/
 
 // // implicit function
+const addit = (a, b) => a + b;
+const result = addit(2, 6);
+console.log(result);
 // // explicit function
-// writ a multiplication table of 3 using function and loop
-// const a = 3;
-// const mul = (a) => {
-//   for (let i = 0; i <= 10; i++) {
-//     return a * i;
-//   }
-// };
-// const res = mul(a);
-// console.log(a + "*" + i + "=" + res);
