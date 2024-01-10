@@ -61,7 +61,19 @@ footer();
 console.log(secret());*/
 
 // // implicit function
-const addit = (a, b) => a + b;
+/*const addit = (a, b) => a + b;
 const result = addit(2, 6);
-console.log(result);
+console.log(result);*/
+
 // // explicit function
+/*const add = (a, b) => {
+  return a + b;
+};
+result = add(2, 3);
+console.log(result);*/
+/
+//  IIFE function
+(function (a,b) {
+  return a+b;
+  console.log("I am trial");
+})(3,6);
