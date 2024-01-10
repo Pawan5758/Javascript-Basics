@@ -37,15 +37,20 @@ a();*/
 const res = mul(undefined, 8);
 console.log(res);*/
 // pagination example by default function
-const pagination = (page = 1, size = 5) => {
+/*const pagination = (page = 1, size = 5) => {
   for (let i = page; i <= size; i++) {
     console.log(i);
   }
 };
-pagination(undefined, undefined);
+pagination(undefined, undefined);*/
 // // paramaterized function
 
 // // inline function
+const footer = function () {
+  console.log("inline function");
+};
+footer();
+
 // // closure function
 // // implicit function
 // // explicit function
