@@ -26,11 +26,16 @@
 
 // Types of function
 // // // Nameless Function
-const a = function () {
+/*const a = function () {
   console.log("hello from nameless");
 };
-a();
+a();*/
 // // default function
+const mul = (a = 2, b) => {
+  return a * b;
+};
+const res = mul(undefined, 8);
+console.log(res);
 // // paramaterized function
 // // inline function
 // // closure function
