@@ -31,12 +31,20 @@
 };
 a();*/
 // // default function
-const mul = (a = 2, b) => {
+/*const mul = (a = 2, b) => {
   return a * b;
 };
 const res = mul(undefined, 8);
-console.log(res);
+console.log(res);*/
+// pagination example by default function
+const pagination = (page = 1, size = 5) => {
+  for (let i = page; i <= size; i++) {
+    console.log(i);
+  }
+};
+pagination(undefined, undefined);
 // // paramaterized function
+
 // // inline function
 // // closure function
 // // implicit function
