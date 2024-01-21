@@ -73,7 +73,7 @@ result = add(2, 3);
 console.log(result);*/
 /
 //  IIFE function
-(function (a,b) {
+/*(function (a,b) {
   return a+b;
   console.log("I am trial");
-})(3,6);
+})(3,6);*/
